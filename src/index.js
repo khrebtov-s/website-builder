@@ -1,2 +1,1 @@
-import "./module";
-console.log("im js");
+import "./styles/main.css";
