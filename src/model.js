@@ -1,10 +1,25 @@
 export const model = [
-  { type: "title", value: "Test Title", options: {} },
+  {
+    type: "title",
+    value: "Test Title",
+    options: {
+      tag: "h2",
+      styles: "background-color: darkred; color: #fff; text-align: center",
+    },
+  },
   {
     type: "text",
     value:
       "loLorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, temporerem",
-    options: {},
+    options: {
+      styles: "background: darkblue; color: yellow",
+    },
   },
-  { type: "textColumns", value: ["text 1", "text 2", "text 3"], options: {} },
+  {
+    type: "textColumns",
+    value: ["text 1", "text 2", "text 3"],
+    options: {
+      styles: "padding: 1rem",
+    },
+  },
 ];
